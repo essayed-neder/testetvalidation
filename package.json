@@ -7,7 +7,8 @@
   "scripts": {
     "dev": "nodemon server.js",
     "start": "node server.js",
-    "sonar": "sonarqube-scanner"
+  "sonar": "node ./node_modules/.bin/sonar-scanner"
+
   },
   "author": "",
   "license": "ISC",
