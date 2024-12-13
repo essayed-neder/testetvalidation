@@ -7,7 +7,7 @@
   "scripts": {
     "dev": "nodemon server.js",
     "start": "node server.js",
-    "sonar": "sonar-scanner"  // Add this line
+    "sonar": "sonar-scanner"
   },
   "author": "",
   "license": "ISC",
@@ -31,6 +31,6 @@
     "ws": "^8.16.0"
   },
   "devDependencies": {
-    "sonar-scanner": "^4.7.0" // Ensure sonar-scanner is listed under devDependencies
+    "sonar-scanner": "^4.7.0"
   }
 }
