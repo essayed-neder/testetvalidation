@@ -5,9 +5,10 @@
   "main": "server.js",
   "type": "module",
   "scripts": {
+    "sonar": "node ./node_modules/.bin/sonar-scanner"
     "dev": "nodemon server.js",
     "start": "node server.js",
-    "sonar": "node ./node_modules/.bin/sonar-scanner"
+
 
 
   },
